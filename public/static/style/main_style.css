@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFCFB;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 24px;
+    height: 24px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 500px;
+}
+
+.submit-btn {
+    color: white;
+    background-color: #F9D57F;
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.form-select {
+    margin-bottom: 30px;
+}
+
+input {
+    background-color: #F8F5EF;
+    border-radius: 100px;
+    border: none;
+    padding: 20px;
+    width: 300px;
+    height: 15px;
+}
+
+label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar > div {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: space-between;
+    height: 700px;
+}
+
+.sidebar > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar-link {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+.popular-book-list {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(188, 172, 132, 0.2);
+    border-radius: 30px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.half-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-block > div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: #7D766D;
+}
+
+.annotation-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 20px;
+    gap: 15px;
+    background: #F9D57F;
+    border-radius: 59px;
+    width: 230px;
+    color: #F8F5EF;
+    border: none;
+    font-size: 16px;
+}
+
+.txt {
+    margin-bottom: 30px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.popular-book-list-itm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottom-block {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.search-from {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+main {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.cover {
+    width: 30%;
+}
